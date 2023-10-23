@@ -5,6 +5,8 @@ import util
 import pandas as pd
 import streamlit as st
 
+nltk.download("stopwords")
+
 target = st.text_input("So you wanna act sarcastic ?")
 
 # loading in the dataset
