@@ -4,7 +4,7 @@ from vectorization import word2vec,glove,tf_idf_vectorization
 import util
 import pandas as pd
 import streamlit as st
-
+import nltk
 nltk.download("stopwords")
 
 target = st.text_input("So you wanna act sarcastic ?")
