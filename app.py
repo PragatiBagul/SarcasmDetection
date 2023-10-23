@@ -8,7 +8,7 @@ import streamlit as st
 target = st.text_input("So you wanna act sarcastic ?")
 
 # loading in the dataset
-address = "./Sarcasm_Headlines_Dataset_v2.json"
+address = "./archive/Sarcasm_Headlines_Dataset_v2.json"
 json_df = pd.read_json(address,lines = True)
 df = pd.DataFrame(json_df)
 
